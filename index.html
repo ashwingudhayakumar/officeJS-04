@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ten organization img</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		const arrayOfObj=[{
+			organizationName:'ZOHO',
+			CEO:'SridharVempu',
+			YearOfStart:'1996',
+			func(){
+			
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{
+			organizationName:'NETFLIX',
+			CEO:'Ted sarandos',
+			YearOfStart:'1997',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{
+			organizationName:'AMAZON',
+			CEO:'Andy jessy',
+			YearOfStart:'1994',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },
+		    {
+			organizationName:'APPLE',
+			CEO:'Tim Cook',
+			YearOfStart:'1976',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{
+			organizationName:'GOOGLE',
+			CEO:'sundar pitchai',
+			YearOfStart:'1998',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{
+			organizationName:'MICROSOFT',
+			CEO:'satya nadella',
+			YearOfStart:'1975',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{
+			organizationName:'FLIPKART',
+			CEO:'kalyan krishnamoorthy',
+			YearOfStart:'2007',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{
+			organizationName:'FRESHWORKS',
+			CEO:'Grish mathrubootham',
+			YearOfStart:'2010',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{organizationName:'ADOBE',
+			CEO:'shanthanu narayen',
+			YearOfStart:'1982',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },{organizationName:'SALESFORCE',
+			CEO:'Marc benioff',
+			YearOfStart:'1999',
+			func(){
+			alert(`organizationName:${this.organizationName}\nCEO:${this.CEO}\nYearOfStart:${this.YearOfStart}`)
+			if(event.which){console.log(`${this.organizationName} mouse button clicked`)
+			let output=document.querySelector('#output');
+            document.addEventListener('click',(e)=>{output.innerText=`left ${e.pageX} top ${e.pageY}`})
+            }
+		    }
+		    },
+
+
+		     ]
+		
+	</script>
+</head>
+<body style="background: lightgreen">
+<div id='output' style="text-align: center"></div>
+<br><br><br><br><br><br>	
+<img onclick='arrayOfObj[0].func()'src="images\zoho.jpeg" width="200" height="150" />
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[1].func()'src="images\netflix.png" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[2].func()'src="images\amazon.png" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[3].func()'src="images\apple.jpg" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[4].func()'src="images\google.jpeg" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[5].func()'src="images\microsoft.png" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[6].func()'src="images\flipkart.jpeg" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[7].func()'src="images\freshworks.jpeg" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[8].func()'src="images\adobe.png" width="200" height="150"/>
+<br><br><br><br><br><br>
+<img onclick='arrayOfObj[9].func()'src="images\salesforce.jpeg" width="200" height="150"/>
+<br><br><br><br><br><br>
+</body>
+</html>
